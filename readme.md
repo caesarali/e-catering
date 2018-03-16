@@ -22,6 +22,6 @@ Documentation for the framework can be found on the [Laravel website](http://lar
 - Done.
 
 ## Any Question ? Contact me on:
-- [Facebook](https://facebook.com/caesaralilamondo) or
+- [Facebook](https://facebook.com/caesaralilamondo)
 
 - Whatsapp : 082293425786 - Caesar Ali L.
