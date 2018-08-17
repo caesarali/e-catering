@@ -19,11 +19,11 @@ class AppServiceProvider extends ServiceProvider
         $count0 = 0;
         $count1 = 0;
 
-        $orders = Schema::hasTable('order');
-        if ($orders) {
-            $count0 = DB::table('order')->where('status', 0)->count();
-            $count1 = DB::table('order')->where('status', 1)->count();
-        }
+        // $orders = Schema::hasTable('order');
+        // if ($orders) {
+        //     $count0 = DB::table('order')->where('status', 0)->count();
+        //     $count1 = DB::table('order')->where('status', 1)->count();
+        // }
 
         View::share(['count0' => $count0, 'count1' => $count1]);
     }
