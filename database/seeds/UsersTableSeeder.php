@@ -24,7 +24,7 @@ class UsersTableSeeder extends Seeder
 
         $admin = new User;
         $admin->name = 'Administrator';
-        $admin->email = 'admin@katering';
+        $admin->email = 'admin@catering';
         $admin->password = bcrypt('admin');
         $admin->save();
         $admin->attachRole('admin');
@@ -32,7 +32,7 @@ class UsersTableSeeder extends Seeder
         for ($i=1; $i <= 20; $i++) {
             $user = new User;
             $user->name = 'Example User '.$i;
-            $user->email = 'exuser-'.$i.'@katering';
+            $user->email = 'exuser-'.$i.'@catering';
             $user->password = bcrypt('exuser');
             $user->save();
             $user->attachRole('customer');
